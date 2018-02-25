@@ -1,0 +1,24 @@
+@media (max-width: 600px) {
+  .notify-badge {
+    left: 6em;
+  }
+  .font-icon {
+    font-size: 6em;
+  }
+}
+@media (max-width: 420px) {
+  .notify-badge {
+    left: 7em;
+  }
+  .font-icon {
+    font-size: 5em;
+  }
+}
+@media (max-width: 320px) {
+  .notify-badge {
+    left: 6em;
+  }
+  .font-icon {
+    font-size: 4em;
+  }
+}
