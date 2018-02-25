@@ -50,8 +50,16 @@
   background-color: #30B4A0;
 }
 
+.bg-general:hover {
+  background-color: #00A58C;
+}
+
 .bg-other {
   background-color: #309989;
+}
+
+.bg-other:hover {
+  background-color: #008370;
 }
 .bg-badge{
   background-color: #2e7fe7;
