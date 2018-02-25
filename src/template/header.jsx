@@ -3,7 +3,7 @@ import logo from '../img/logo.png'
 
 export default props => (
   <header>
-    <nav className="shadow rounded-0 navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="fixed-top shadow rounded-0 navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand" href="">
         <img className="rounded-circle" src={logo} width="45" height="45" alt="logo"/>
       </a>
@@ -20,6 +20,10 @@ export default props => (
         </li>
       </ul>
       <ul className="navbar-nav my-2 my-lg-0 ">
+        <li className="nav-item d-sm-none">
+          <a className="nav-link" href=""><i className="fa fa-credit-card"></i> Ver Planos
+          </a>
+        </li>
           <li className="nav-item d-none d-sm-block">
             <a className="nav-link" href=""><i className="fa fa-comments"></i>  Fale Conosco
             </a>
