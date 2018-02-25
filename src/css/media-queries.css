@@ -1,3 +1,19 @@
+@media (max-width: 1024px) {
+  .notify-badge {
+    left: 10em;
+  }
+  .font-icon {
+    font-size: 7em;
+  }
+}
+@media (max-width: 800px) {
+  .notify-badge {
+    left: 7em;
+  }
+  .font-icon {
+    font-size: 7em;
+  }
+}
 @media (max-width: 600px) {
   .notify-badge {
     left: 6em;
@@ -6,7 +22,7 @@
     font-size: 6em;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 415px) {
   .notify-badge {
     left: 7em;
   }

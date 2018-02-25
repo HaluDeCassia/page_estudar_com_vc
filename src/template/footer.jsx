@@ -5,7 +5,7 @@ import perfil from '../img/perfil.jpg'
 
 export default props => (
   <footer>
-    <div className="py-md-2 bg-footer col pr-0 d-none d-md-block">
+    <div className="py-md-2 bg-footer col pr-0 d-none d-lg-block">
       <div className="col-md-1 float-right d-none d-md-block">
         <img className="img-fluid mt-1" src={own} alt="logo"/>
       </div>
@@ -30,7 +30,7 @@ export default props => (
         </ul>
       </div>
     </div>
-    <div className="col pr-0 d-block d-sm-none">
+    <div className="col pr-0 d-sm-block d-md-block d-lg-none">
       <ul className="nav fixed-bottom shadow navbar-light bg-light justify-content-center">
         <li className="nav-item">
           <a className="nav-link text-secondary" href="" title="Home"><img className="rounded-circle" src={logo} width="25" height="25" alt="logo"/></a>

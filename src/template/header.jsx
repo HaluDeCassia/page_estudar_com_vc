@@ -3,7 +3,7 @@ import logo from '../img/logo.png'
 import perfil from '../img/perfil.jpg'
 
 export default props => (
-  <header className="d-none d-sm-block">
+  <header className="d-none d-lg-block">
     <nav className="fixed-top shadow rounded-0 navbar navbar-expand-lg navbar-light bg-light ">
       <a className="navbar-brand" href="">
         <img src={logo} width="45" height="45" alt="logo"/>
