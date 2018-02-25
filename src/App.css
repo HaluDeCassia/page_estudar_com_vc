@@ -45,3 +45,17 @@
 .bg-other {
   background-color: #309989;
 }
+.bg-badge{
+  background-color: #2e7fe7;
+  box-shadow: 2px 2px 2px #a3a3a3;
+}
+.dash-circle {
+  border-radius: 50% !important;
+}
+
+.notify-badge {
+	position: absolute;
+	left: 12em;
+	text-align: center;
+	z-index: 1020;
+}

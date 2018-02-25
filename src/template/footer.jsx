@@ -4,8 +4,8 @@ import logo from '../img/logo.png'
 import perfil from '../img/perfil.jpg'
 
 export default props => (
-  <footer className="bg-footer py-md-2 ">
-    <div className="col pr-0 d-none d-md-block">
+  <footer>
+    <div className="py-md-2 bg-footer col pr-0 d-none d-md-block">
       <div className="col-md-1 float-right d-none d-md-block">
         <img className="img-fluid mt-1" src={own} alt="logo"/>
       </div>

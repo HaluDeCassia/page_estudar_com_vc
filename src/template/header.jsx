@@ -6,7 +6,7 @@ export default props => (
   <header className="d-none d-sm-block">
     <nav className="fixed-top shadow rounded-0 navbar navbar-expand-lg navbar-light bg-light ">
       <a className="navbar-brand" href="">
-        <img className="rounded-circle" src={logo} width="45" height="45" alt="logo"/>
+        <img src={logo} width="45" height="45" alt="logo"/>
       </a>
       <ul className="navbar-nav mr-auto">
         <li className="nav-item d-none d-sm-block">
