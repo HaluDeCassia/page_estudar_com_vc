@@ -1,9 +1,10 @@
 import React from 'react'
 import logo from '../img/logo.png'
+import perfil from '../img/perfil.jpg'
 
 export default props => (
-  <header>
-    <nav className="fixed-top shadow rounded-0 navbar navbar-expand-lg navbar-light bg-light">
+  <header className="d-none d-sm-block">
+    <nav className="fixed-top shadow rounded-0 navbar navbar-expand-lg navbar-light bg-light ">
       <a className="navbar-brand" href="">
         <img className="rounded-circle" src={logo} width="45" height="45" alt="logo"/>
       </a>
@@ -30,7 +31,7 @@ export default props => (
           </li>
           <li className="nav-item d-none d-sm-block">
             <a className="nav-link" href="">
-              <img className="img-fluid rounded-circle " src={logo} width="30" height="30" alt="logo"/>
+              <img className="img-fluid img-thumbnail rounded-circle " src={perfil} width="35" height="35" alt="logo"/>
             </a>
           </li>
           <li className="nav-item lineh-1 text-left d-none d-sm-block">

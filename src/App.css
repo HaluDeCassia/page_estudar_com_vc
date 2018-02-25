@@ -33,12 +33,15 @@
 .bg-footer {
   background-color: #00A58C;
 }
+
 .bg-person {
   background-color: #33B86F;
 }
-.bg-general  {
+
+.bg-general {
   background-color: #30B4A0;
 }
-.bg-other  {
+
+.bg-other {
   background-color: #309989;
 }
