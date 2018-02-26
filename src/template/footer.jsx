@@ -4,8 +4,8 @@ import logo from '../img/logo.png'
 import perfil from '../img/perfil.jpg'
 
 export default props => (
-  <footer>
-    <div className="wow fadeIn py-md-2 bg-footer col pr-0 d-none d-lg-block">
+  <footer className="text-shadow">
+    <div className="shadow wow fadeIn py-md-2 bg-footer col pr-0 d-none d-lg-block">
       <div className="col-md-1 float-right d-none d-md-block">
         <img className="img-fluid mt-1" src={own} alt="logo"/>
       </div>

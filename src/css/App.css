@@ -1,5 +1,12 @@
 .shadow {
-  box-shadow: 0 0 0.25em 0.25em #aaa;
+  box-shadow: 0 0 0.2em 0.2em #707070;
+}
+.text-shadow {
+  text-shadow: 1px 1px 1px #535353;
+}
+
+.text-secondary {
+	color: #4b4d4e !important;
 }
 
 .absolute {
@@ -31,7 +38,8 @@
 }
 
 .font-icon {
-  font-size: 9em
+  font-size: 9em;
+  text-shadow: 2px 2px 2px #535353;
 }
 
 .bg-footer {
@@ -79,9 +87,4 @@
 	left: 12em;
 	text-align: center;
 	z-index: 1020;
-}
-.image {
-    flex: 1;
-    width: null;
-    height: null;
 }
